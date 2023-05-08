@@ -1,0 +1,9 @@
+on:
+  schedule:
+    - cron: "* * * * *"
+
+jobs:
+ mirror:
+  runs-on: ubuntu-latest
+  steps:
+  - run: env
