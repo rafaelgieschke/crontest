@@ -8,3 +8,4 @@ jobs:
   steps:
   - run: env
   - run: uname -a
+  - run: git push https://github.com/rafaelgieschke/test @:refs/heads/test123
